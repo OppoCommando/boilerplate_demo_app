@@ -36,7 +36,7 @@ class _LoginScreenState extends State<LoginScreen> {
             RaisedButton(
               onPressed: () {
                 _themeStore.changeBrightnessToDark(!_themeStore.darkMode);
-                context.read<ThemeManagement>().toggleTheme();
+               // context.read<ThemeManagement>().toggleTheme();
               },
               child: Text('Toggle Theme'),
             ),
